@@ -359,6 +359,14 @@ helmholtzEllisNames = #`(
   (aflatDe . ,(ly:make-pitch -1 5 (/ 1 (* SHARP UNDEC))))
   (bflatDe . ,(ly:make-pitch -1 6 (/ 1 (* SHARP UNDEC))))
 
+  (csharpDe . ,(ly:make-pitch -1 0 (* SHARP (/ 1 UNDEC))))
+  (dsharpDe . ,(ly:make-pitch -1 1 (* SHARP (/ 1 UNDEC))))
+  (esharpDe . ,(ly:make-pitch -1 2 (* SHARP (/ 1 UNDEC))))
+  (fsharpDe . ,(ly:make-pitch -1 3 (* SHARP (/ 1 UNDEC))))
+  (gsharpDe . ,(ly:make-pitch -1 4 (* SHARP (/ 1 UNDEC))))
+  (asharpDe . ,(ly:make-pitch -1 5 (* SHARP (/ 1 UNDEC))))
+  (bsharpDe . ,(ly:make-pitch -1 6 (* SHARP (/ 1 UNDEC))))
+
   (cflatDf . ,(ly:make-pitch -1 0 (/ 1 (* SHARP SYN))))
   (dflatDf . ,(ly:make-pitch -1 1 (/ 1 (* SHARP SYN))))
   (eflatDf . ,(ly:make-pitch -1 2 (/ 1 (* SHARP SYN))))
@@ -669,6 +677,7 @@ helmholtzEllisGlyphs = #`(
 
 	(147/160 . "accidentals.flatflat.u5.d7.d7")
 	(16384/18225 . "accidentals.flatflat.u5.u5")
+	(729/704 . "accidentals.sharp.d11")
 )
 
 %% set pitch names.
